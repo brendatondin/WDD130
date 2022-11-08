@@ -136,7 +136,7 @@ footer .social img {
 
 .rj-card {
     display: grid;
-    gap: 20rem;
+    gap: 5rem;
     grid-template-columns: 1fr 1fr;
     margin: 70px 0px;
 }
@@ -180,6 +180,49 @@ footer .social img {
 
 .rj-text {
     align-self: center;
+}
+
+.rj-card-opp {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 70px 0px;
+}
+
+.card-img-opp {
+    width: 50%;
+    /* justify-self: end; */
+    border: 3px solid #24252a;
+    box-shadow: 5px 5px 10px #1342663c;
+}
+
+.rj-text-opp h2 {
+    width: 50%;
+    font-family: 'Bungee', sans-serif;
+    font-size: 2em;
+}
+
+.rj-text-opp p {
+    /* width: 60%; */
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.rj-btn-opp {
+    margin-top: 10px;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.4em;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.rj-text-opp {
+    align-self: center;
+    margin-left: 30em;
 }
 
 #city {
@@ -235,6 +278,7 @@ footer .social img {
     text-align: center;
     margin: 25px;
 }
+
 
 
 @media screen and (max-width: 900px) {
