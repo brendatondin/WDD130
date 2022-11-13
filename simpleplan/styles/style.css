@@ -323,7 +323,7 @@ footer .social img {
 }
 
 #background {
-    background-color: #78c5d7;
+    background-color: #1342663c;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -437,12 +437,12 @@ footer .social img {
 }
 
 .msg-package {
-    background-color: #134266;
+    background-color: #2d334a;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #134266;
+    box-shadow: 5px 5px 10px #2d334a;
 }
 
 .msg-package h2 {
