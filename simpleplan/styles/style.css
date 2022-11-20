@@ -515,6 +515,8 @@ form {
     border-radius: 30px;
     background: #fff;
     margin-top: 150px;
+    grid-column: 4/9;
+    grid-row: 2/7;
 }
 
 .form-left-decoration,
@@ -619,9 +621,27 @@ form {
     cursor: pointer;
 }
 
-#feedback {
+.teste{
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* #feedback {
     grid-column: 4/9;
     grid-row: 2/7;
+} */
+
+#feedback {
+    background-color: antiquewhite;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;   
+    text-align: center;   
 }
 
 
