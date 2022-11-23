@@ -11,70 +11,101 @@
 </head>
 
 <body>
-        <header>
-                <img class="logo" src="images/logo.png" alt="Bentos Tour Logo">
-            <nav class="nav__links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="hotspots.html">Hot Spots</a></li>
-                    <li><a href="packages.html">Packages</a></li>
-                </ul>
-            </nav>
-            <a class='cta' href="contactus.html"><button class="btn-nav-bar">Contact</button></a>
-        </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="./images/rsz_rsz_pexels-bruno-scramgnon-585758.jpg" alt="Rio de Janeiro">
+    <header>
+        <img class="logo" src="images/logo.png" alt="Bentos Tour Logo">
+        <nav class="nav__links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hotspots.html">Hot Spots</a></li>
+                <li><a href="packages.html">Packages</a></li>
+            </ul>
+        </nav>
+        <a class='cta' href="contactus.html"><button class="btn-nav-bar">Contact</button></a>
+    </header>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="./images/rsz_rsz_pexels-bruno-scramgnon-585758.jpg" alt="Rio de Janeiro">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Bento's Tour</h1>
+            <h4>Come Visit Rio de Janeiro</h4>
+        </section>
+    </div>
+    <main>
+        <section class="rj-card">
+            <!-- <img class="card-img" src="./images/rsz_1rsz_1pexels-polina-kovaleva-8880226.jpg" alt="river in forest"> -->
+            <!-- Trigger the Modal -->
+            <img id="myImg" src="./images/rsz_1rsz_1pexels-polina-kovaleva-8880226.jpg" alt="Rio de Janeiro"
+                >
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
             </div>
-            <section id="hero-msg">
-                <h1 class="home-title">Bento's Tour</h1>
-                <h4>Come Visit Rio de Janeiro</h4>
+            <div class="rj-text">
+                <h2>Why Rio?</h2>
+                <p>Rio de Janeiro is a city in Brazil known for its beauty, its beautiful beaches and nature. Rio is a
+                    place to go with your family, friends or just by yourself, with Bento's Tour we will garante your
+                    whole vacation will be unforgettable and we will make a lot of memories together.</p>
+                <button class="rj-btn">Read More</button>
+            </div>
+        </section>
+        <div id="city">
+            <div id="city-box">
+                <img id="city-img" src="./images/rsz_1pexels-fábio-nuno-4272478.jpg" alt="">
+            </div>
+            <section id="city-msg">
+                <h2>More Than Just carnaval</h2>
+                <ahref="#"><button class="rj-btn">Read More</button></ahref=>
             </section>
         </div>
-        <main>
-                <section class="rj-card">
-                    <img class="card-img" src="./images/rsz_1rsz_1pexels-polina-kovaleva-8880226.jpg" alt="river in forest">
-                    <div class="rj-text">
-                        <h2>Why Rio?</h2>
-                        <p>Rio de Janeiro is a city in Brazil known for its beauty, its beautiful beaches and nature. Rio is a place to go with your family, friends or just by yourself, with Bento's Tour we will garante your whole vacation will be unforgettable and we will make a lot of memories together.</p>
-                        <button class="rj-btn">Read More</button>
-                    </div>
-                </section>
-                <div id="city">
-                    <div id="city-box">
-                        <img id="city-img" src="./images/rsz_1pexels-fábio-nuno-4272478.jpg" alt="">
-                    </div>
-                    <section id="city-msg">
-                        <h2>More Than Just carnaval</h2>
-                        <ahref="#"><button class="rj-btn">Read More</button></ahref=>
-                    </section>
-                </div>
-                <section id="about-text">
-                    <h2>About us</h2>
-                    <div id="text-about-div">
-                        <p class="text-one">Who are Bento's Tour? Founded in 2022, Bento's tour is right now one of the best choices of tourism if you want to have the time of your life in Rio de Janeiro. Founded by locals and lovers of tourism, we want to share all the happiness a real 'Carioca' has it. </p>
-                        <p class="text-two">We wanted to make sure everyone who comes to Rio could enjoy everything the city has to offer and bring you to places only locals know, so you can have a full experience of what it's like to be, as they are known, 'carioca'.</p>
-                    </div>
-                </section>
-        </main>
-        
-        <footer>
-            <p>Bento's Tour &copy; 2022 - Brenda Bento</p>
-            <p><a href="#">Hot Spots</a></p>
-            <p><a href="#">Packages</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="../wwr/images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="../wwr/images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="../wwr/images/instagram.png" alt="instagram icon">
-                </a>
+        <section id="about-text">
+            <h2>About us</h2>
+            <div id="text-about-div">
+                <p class="text-one">Who are Bento's Tour? Founded in 2022, Bento's tour is right now one of the best
+                    choices of tourism if you want to have the time of your life in Rio de Janeiro. Founded by locals
+                    and lovers of tourism, we want to share all the happiness a real 'Carioca' has it. </p>
+                <p class="text-two">We wanted to make sure everyone who comes to Rio could enjoy everything the city has
+                    to offer and bring you to places only locals know, so you can have a full experience of what it's
+                    like to be, as they are known, 'carioca'.</p>
             </div>
-        </footer>
-    
+        </section>
+    </main>
+
+    <footer>
+        <p>Bento's Tour &copy; 2022 - Brenda Bento</p>
+        <p><a href="#">Hot Spots</a></p>
+        <p><a href="#">Packages</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../wwr/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../wwr/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../wwr/images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+
 </body>
+<script>
+
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+</script>
 
 </html>
